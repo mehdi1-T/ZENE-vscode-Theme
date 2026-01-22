@@ -1,0 +1,21 @@
+{
+  "name": "transparent-theme",
+  "displayName": "Transparent Theme",
+  "description": "A transparent VS Code theme.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.108.1"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Transparent Theme ",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Transparent Theme -color-theme.json"
+      }
+    ]
+  }
+}
