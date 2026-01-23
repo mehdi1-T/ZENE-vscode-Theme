@@ -1,21 +1,13 @@
 {
-  "name": "transparent-theme",
-  "displayName": "Transparent Theme",
-  "description": "A transparent VS Code theme.",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.108.1"
-  },
-  "categories": [
-    "Themes"
-  ],
+  "name": "cat-theme",
+  "displayName": "Cat Theme",
+  "version": "1.0.0",
+  "engines": { "vscode": "^1.50.0" },
   "contributes": {
-    "themes": [
-      {
-        "label": "Transparent Theme ",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Transparent Theme -color-theme.json"
-      }
-    ]
+    "themes": [{
+      "label": "Cat Theme",
+      "uiTheme": "vs-dark",
+      "path": "./cat-theme.json"
+    }]
   }
 }
