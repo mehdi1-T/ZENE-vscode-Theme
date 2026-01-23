@@ -24,9 +24,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "ZENE Theme",
+        "label": "Ice Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/ZENE-Theme.json"
+        "path": "./themes/Dark-Future.json"
+      },
+      {
+        "label": "Simple Black Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Simple-Black.json"
       }
     ]
   }
