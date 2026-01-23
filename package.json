@@ -1,14 +1,33 @@
 {
-  "name": "batman-theme",
-  "displayName": "BATMAN Theme",
-  "version": "1.0.0",
-  "engines": { "vscode": "^1.50.0" },
+  "name": "nightfall-transparent-theme",
+  "displayName": "Nightfall Transparent Theme",
+  "publisher": "mehditalalha",
+  "version": "1.0.1",
+  "icon": "assets/logo.png",
+  "description": "A clean, cute yet powerful transparent dark theme for Visual Studio Code.",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": ["Themes"],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "transparent",
+    "night",
+    "minimal"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mehdi1-T/nightfall-vscode-theme"
+  },
+  "license": "MIT",
   "contributes": {
-    "themes": [{
-      "label": "BATMAN Theme",
-      "icon": "images/batman-icon.png",
-      "uiTheme": "vs-dark",
-      "path": "./themes/cat-theme.json"
-    }]
+    "themes": [
+      {
+        "label": "Nightfall Transparent",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cat-theme.json"
+      }
+    ]
   }
 }
