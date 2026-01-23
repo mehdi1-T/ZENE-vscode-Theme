@@ -12,7 +12,7 @@ I personaly use this them because i love see my editor simple and clean i dont l
 1. Search for `ZENE Theme`
 1. Click **Install**
 1. Click **Reload**
-1. File > Preferences > Color Theme > **ZENE Theme**
+1. File > Preferences > Color Theme > **night-fall**
 1. Optional: Use the recommended settings below for best experience
 
 ## Authors
