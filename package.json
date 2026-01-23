@@ -1,10 +1,10 @@
 {
-  "name": "nightfall-transparent-theme",
-  "displayName": "Nightfall Transparent Theme",
+  "name": "zene-theme",
+  "displayName": "ZENE Theme",
   "publisher": "mehditalalha",
-  "version": "1.0.1",
-  "icon": "assets/logo.png",
-  "description": "A clean, cute yet powerful transparent dark theme for Visual Studio Code.",
+  "version": "1.0.2",
+  "icon": "assets/logo.jpg",
+  "description": "A clean, cute dark theme for Visual Studio Code.",
   "engines": {
     "vscode": "^1.85.0"
   },
@@ -24,9 +24,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Nightfall Transparent",
+        "label": "Nightfall",
         "uiTheme": "vs-dark",
-        "path": "./themes/cat-theme.json"
+        "path": "./themes/night-fall.json"
       }
     ]
   }

@@ -1,16 +1,19 @@
-# transparent-theme README
+# ZENE Theme
 
-## Working with Markdown
+I personaly use this them because i love see my editor simple and clean i dont like mush colors lets keep it simple
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+## Dark ZENE Theme
+![image](assets/Screenshot(1).png)
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+## Installation
 
-## For more information
+1. Open **Extensions** sidebar panel in Visual Studio Code. `View → Extensions`
+1. Search for `ZENE Theme`
+1. Click **Install**
+1. Click **Reload**
+1. File > Preferences > Color Theme > **ZENE Theme**
+1. Optional: Use the recommended settings below for best experience
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## Authors
 
-**Enjoy!**
+Authored by [Mehdi Talalha](https://instagram.com/ska_zene)
