@@ -3,7 +3,7 @@
 I personaly use this them because i love see my editor simple and clean i dont like mush colors lets keep it simple
 
 ## Dark ZENE Theme
-![image](assets/Screenshot(1).png)
+![image](![assets/Screenshot(1).png](https://github.com/mehdi1-T/ZENE-vscode-Theme/blob/main/assets/Screenshot(1).png))
 
 ## Installation
 

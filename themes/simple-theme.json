@@ -9,8 +9,6 @@
     "activityBarBadge.foreground": "#ffffff",
     "badge.background": "#219fd5",
     "badge.foreground": "#ffffff",
-    "button.background": "#03648a",
-    "button.foreground": "#ffffff",
     "button.hoverBackground": "#219fd5",
     "contrastActiveBorder": "#122d42",
     "contrastBorder": "#122d42",
@@ -134,6 +132,8 @@
     "walkThrough.embeddedEditorBackground": "#001111",
     "welcomePage.buttonBackground": "#011627",
     "welcomePage.buttonHoverBackground": "#011627",
+    "button.background": "#FFFFFF",
+    "button.foreground": "#000000",
     "widget.shadow": "#219fd5"
   },
   "tokenColors": [
