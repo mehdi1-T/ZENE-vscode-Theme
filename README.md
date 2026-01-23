@@ -1,5 +1,6 @@
 # ZENE Theme
-I personaly use Simple Black Theme them because i love see my editor simple and clean i dont like mush colors lets keep it simple
+
+I personaly use Simple Black Theme theme because i love see my editor simple and clean i dont like mush colors lets keep it simple.
 ---
 ## Dark ZENE Theme
 ![Simple Black Theme](assets/simple-black.png)
