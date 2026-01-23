@@ -1,9 +1,10 @@
 # ZENE Theme
+(![assets/logo.jpg](assets/logo.jpg))
 
 I personaly use this them because i love see my editor simple and clean i dont like mush colors lets keep it simple
 
 ## Dark ZENE Theme
-![image](assets/Screenshot(1).png))
+(![assets/Screenshot(1).png](assets/Screenshot(1).png))
 
 ## Installation
 
@@ -15,5 +16,6 @@ I personaly use this them because i love see my editor simple and clean i dont l
 1. Optional: Use the recommended settings below for best experience
 
 ## Authors
-
 Authored by [Mehdi Talalha](https://instagram.com/ska_zene)
+
+
