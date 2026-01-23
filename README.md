@@ -1,12 +1,15 @@
 # ZENE Theme
 I personaly use Simple Black Theme them because i love see my editor simple and clean i dont like mush colors lets keep it simple
-
+---
 ## Dark ZENE Theme
 ![Simple Black Theme](assets/simple-black.png)
 
+
+
+
 ## Ice Theme
 ![Simple Ice Theme](assets/ice-theme.png)
-
+---
 
 ## Installation
 
