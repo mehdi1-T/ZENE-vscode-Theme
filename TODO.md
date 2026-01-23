@@ -1,2 +1,0 @@
-- [x] Change foreground colors from #6E8CFB to #FFFFFF
-- [x] Remove #1B3C53 from backgrounds by setting to #00000000
