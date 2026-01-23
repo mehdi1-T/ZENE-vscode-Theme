@@ -2,10 +2,10 @@
 I personaly use this them because i love see my editor simple and clean i dont like mush colors lets keep it simple
 
 ## Dark ZENE Theme
-(![Simple Dark Theme](assets/screenshot.png))
+(![Simple Black Theme](assets/simple-black.png))
 
 ## Ice Theme
-(![Simple Dark Theme](assets/screenshot.png))
+(![Simple Ice Theme](assets/ice-theme.png))
 
 
 ## Installation
