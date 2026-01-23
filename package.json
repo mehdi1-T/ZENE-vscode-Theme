@@ -1,11 +1,12 @@
 {
-  "name": "cat-theme",
-  "displayName": "Cat Theme",
+  "name": "batman-theme",
+  "displayName": "BATMAN Theme",
   "version": "1.0.0",
   "engines": { "vscode": "^1.50.0" },
   "contributes": {
     "themes": [{
-      "label": "Cat Theme",
+      "label": "BATMAN Theme",
+      "icon": "images/batman-icon.png",
       "uiTheme": "vs-dark",
       "path": "./themes/cat-theme.json"
     }]

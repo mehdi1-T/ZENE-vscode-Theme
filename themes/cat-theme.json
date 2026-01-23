@@ -1,5 +1,5 @@
 {
-  "name": "Cat Theme",
+  "name": "BATMAN Theme",
   "type": "dark",
   "workbench.colorCustomizations": {
     "editor.background": "#000000",
@@ -37,10 +37,12 @@
     "scrollbarSlider.activeBackground": "#6E8CFB70",
     "editorWidget.background": "#1B3C53e0",
     "editorWidget.border": "#6E8CFB60",
-    "editorSuggestWidget.background": "#1B3C53f0",
-    "editorSuggestWidget.border": "#6E8CFB60",
-    "editorSuggestWidget.selectedBackground": "#6E8CFB30",
-    "editorHoverWidget.background": "#1B3C53f0",
+    "editorSuggestWidget.background": "#000000f0",
+    "editor.suggestWidget.foreground": "#FFFFFF",
+    "editorSuggestWidget.border": "#000000f0",
+    "favoritessuggestWidget.selectedForeground": "#FFFFFF",
+    "editorSuggestWidget.selectedBackground": "#6E8CFB70",
+    "editorHoverWidget.background": "#000000f0",
     "editorHoverWidget.border": "#6E8CFB60",
     "peekView.border": "#6E8CFB",
     "peekViewEditor.background": "#000000",
@@ -102,9 +104,9 @@
     "titleBar.inactiveBackground": "#00000080",
     "titleBar.inactiveForeground": "#6E8CFB",
     "titleBar.border": "#1B3C5320",
-    "menu.background": "#1B3C53f0",
+    "menu.background": "#000000e0",
     "menu.foreground": "#FFFFFF",
-    "menu.selectionBackground": "#6E8CFB40",
+    "menu.selectionBackground": "#6E8CFB",
     "menu.selectionForeground": "#FFFFFF",
     "menu.separatorBackground": "#6E8CFB30",
     "menubar.selectionBackground": "#6E8CFB30",
@@ -352,5 +354,6 @@
       }
     }
   ],
-  "workbench.editor.empty.hint": "hidden"
+  "workbench.editor.empty.hint": "hidden",
+  "explorer.confirmDelete": false
 }
