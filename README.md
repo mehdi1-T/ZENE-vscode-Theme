@@ -1,6 +1,4 @@
 # ZENE Theme
-(![assets/logo.jpg](assets/logo.jpg))
-
 I personaly use this them because i love see my editor simple and clean i dont like mush colors lets keep it simple
 
 ## Dark ZENE Theme
