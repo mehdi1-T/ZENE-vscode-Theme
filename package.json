@@ -7,7 +7,7 @@
     "themes": [{
       "label": "Cat Theme",
       "uiTheme": "vs-dark",
-      "path": "./cat-theme.json"
+      "path": "./themes/cat-theme.json"
     }]
   }
 }

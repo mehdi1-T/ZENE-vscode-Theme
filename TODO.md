@@ -354,3 +354,7 @@
   ],
   "workbench.editor.empty.hint": "hidden"
 }
+# TODO: Update Cat Theme Colors
+
+- [x] Replace all darker blue (#0000FF) with clearer blue (#6E8CFB) in themes/cat-theme.json
+- [x] Update hover backgrounds (e.g., button.hoverBackground, scrollbarSlider.hoverBackground) to #5E936C in themes/cat-theme.json
