@@ -154,108 +154,168 @@
     "extensionButton.prominentBackground": "#FFFFFF",
     "extensionButton.prominentHoverBackground": "#FFFFFF"
   },
-  "tokenColors": [
-  {
-    "name": "Comments",
-    "scope": ["comment", "punctuation.definition.comment"],
-    "settings": {
-      "foreground": "#6A737D",
-      "fontStyle": "italic"
+   "tokenColors": [
+    {
+      "settings": {
+        "foreground": "#bce7ff"
+      }
+    },
+    {
+      "scope": [
+        "meta.paragraph.markdown",
+        "string.other.link.description.title.markdown"
+      ],
+      "settings": {
+        "foreground": "#EEFFFF"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.section.markdown",
+        "punctuation.definition.heading.markdown"
+      ],
+      "settings": {
+        "foreground": "#5ABEB0"
+      }
+    },
+    {
+      "scope": [
+        "punctuation.definition.string.begin.markdown",
+        "punctuation.definition.string.end.markdown",
+        "markup.quote.markdown"
+      ],
+      "settings": {
+        "foreground": "#82AAFF"
+      }
+    },
+    {
+      "scope": ["markup.quote.markdown"],
+      "settings": {
+        "foreground": "#82AAFF"
+      }
+    },
+    {
+      "scope": ["markup.bold.markdown", "punctuation.definition.bold.markdown"],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#57cdff"
+      }
+    },
+    {
+      "scope": [
+        "markup.italic.markdown",
+        "punctuation.definition.italic.markdown"
+      ],
+      "settings": {
+        "foreground": "#C792EA"
+      }
+    },
+    {
+      "scope": [
+        "markup.inline.raw.string.markdown",
+        "markup.fenced_code.block.markdown"
+      ],
+      "settings": {
+        "foreground": "#f7ecb5"
+      }
+    },
+    {
+      "scope": ["punctuation.definition.metadata.markdown"],
+      "settings": {
+        "foreground": "#f3b8c2"
+      }
+    },
+    {
+      "scope": [
+        "markup.underline.link.image.markdown",
+        "markup.underline.link.markdown"
+      ],
+      "settings": {
+        "foreground": "#6dbdfa"
+      }
+    },
+    {
+      "name": "Comment",
+      "scope": "comment",
+      "settings": {
+        "foreground": "#999999"
+      }
+    },
+    {
+      "name": "Quotes",
+      "scope": "punctuation.definition.string",
+      "settings": {
+        "foreground": "#6bff81"
+      }
+    },
+    {
+      "name": "String",
+      "scope": "string",
+      "settings": {
+        "foreground": "#d3eed6"
+      }
+    },
+    {
+      "name": "String Quoted",
+      "scope": ["string.quoted", "variable.other.readwrite.js"],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#d3eed6"
+      }
+    },
+    {
+      "name": "Number",
+      "scope": "constant.numeric",
+      "settings": {
+        "foreground": "#8dec95"
+      }
+    },
+    {
+      "name": "Boolean",
+      "scope": "constant.language.boolean",
+      "settings": {
+        "foreground": "#8dec95"
+      }
+    },
+    {
+      "name": "Constant",
+      "scope": "constant",
+      "settings": {
+        "foreground": "#A170C6"
+      }
+    },
+    {
+      "name": "Built-in constant",
+      "scope": [
+        "constant.language",
+        "punctuation.definition.constant",
+        "variable.other.constant"
+      ],
+      "settings": {
+        "foreground": "#92b6f4"
+      }
+    },
+    {
+      "name": "User-defined constant",
+      "scope": ["constant.character", "constant.other"],
+      "settings": {
+        "foreground": "#82AAFF"
+      }
+    },
+    {
+      "name": "Variable",
+      "scope": "variable",
+      "settings": {
+        "foreground": "#a4ceee"
+      }
+    },
+    {
+      "name": "JavaScript Other Variable",
+      "scope": "variable.other.object.js",
+      "settings": {
+        "foreground": "#d6deeb"
+      }
     }
-  },
-  {
-    "name": "Keywords",
-    "scope": [
-      "keyword",
-      "storage.type",
-      "storage.modifier",
-      "keyword.control"
-    ],
-    "settings": {
-      "foreground": "#C792EA",
-      "fontStyle": "bold"
-    }
-  },
-  {
-    "name": "Operators",
-    "scope": ["keyword.operator"],
-    "settings": {
-      "foreground": "#89DDFF"
-    }
-  },
-  {
-    "name": "Functions",
-    "scope": [
-      "entity.name.function",
-      "meta.function-call",
-      "support.function"
-    ],
-    "settings": {
-      "foreground": "#C3E88D"
-    }
-  },
-  {
-    "name": "Classes",
-    "scope": [
-      "entity.name.type",
-      "entity.name.class",
-      "support.type",
-      "support.class"
-    ],
-    "settings": {
-      "foreground": "#82AAFF"
-    }
-  },
-  {
-    "name": "Variables",
-    "scope": ["variable", "variable.other"],
-    "settings": {
-      "foreground": "#F78C6C"
-    }
-  },
-  {
-    "name": "Numbers",
-    "scope": ["constant.numeric"],
-    "settings": {
-      "foreground": "#FF5370"
-    }
-  },
-  {
-    "name": "Strings",
-    "scope": ["string", "string.quoted"],
-    "settings": {
-      "foreground": "#ECC48D"
-    }
-  },
-  {
-    "name": "Constants",
-    "scope": ["constant.language"],
-    "settings": {
-      "foreground": "#82AAFF"
-    }
-  },
-  {
-    "name": "Built-in Functions (print, len, etc)",
-    "scope": ["support.function.builtin"],
-    "settings": {
-      "foreground": "#82AAFF"
-    }
-  },
-  {
-    "name": "Punctuation",
-    "scope": ["punctuation"],
-    "settings": {
-      "foreground": "#EEFFFF"
-    }
-  },
-  {
-    "name": "Invalid / Deprecated",
-    "scope": ["invalid", "invalid.deprecated"],
-    "settings": {
-      "foreground": "#FF5370",
-      "fontStyle": "bold underline"
-    }
-  }
 ],
   "workbench.editor.empty.hint": "hidden",
   "explorer.confirmDelete": false
