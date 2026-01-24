@@ -13,7 +13,7 @@
     "badge.foreground": "#000000",
     
     "button.background": "#00d4ff",
-    "button.foreground": "#000000",
+    "button.foreground": "#ffffff",
     "button.hoverBackground": "#ffffff",
     "button.hoverForeground": "#000000",
 
@@ -82,14 +82,14 @@
     "sideBarSectionHeader.border": "#1a2332",
     
     "list.activeSelectionBackground": "#00d4ff",
-    "list.activeSelectionForeground": "#000000",
-    "list.inactiveSelectionBackground": "#0d1117cc",
+    "list.activeSelectionForeground": "#ffffff",
+    "list.inactiveSelectionBackground": "#1a2332ef",
     "list.inactiveSelectionForeground": "#ffffff",
     "list.hoverBackground": "#0d1117e6",
     "list.hoverForeground": "#ffffff",
     "list.focusBackground": "#00d4ff",
-    "list.focusForeground": "#000000",
-    "list.background": "#0d1117dd",
+    "list.focusForeground": "#ffffff",
+    "list.background": "#1a233201",
     "list.highlightForeground": "#00d4ff",
     
     "statusBar.background": "#0a0e1a",
