@@ -34,9 +34,9 @@
         "path": "./themes/Simple-Black.json"
       },
       {
-        "label": "Monochrome Blue Theme",
+        "label": "Monochrome Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/monochrome-blue.json"
+        "path": "./themes/monochrome.json"
       }
     ]
   }
