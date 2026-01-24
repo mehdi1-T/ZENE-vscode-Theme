@@ -2,7 +2,7 @@
   "name": "zene-theme",
   "displayName": "ZENE Theme",
   "publisher": "mehditalalha",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "icon": "assets/logo.jpg",
   "description": "A clean, cute dark theme for Visual Studio Code.",
   "engines": {
@@ -32,6 +32,11 @@
         "label": "Simple Black Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/Simple-Black.json"
+      },
+      {
+        "label": "Monochrome Blue Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/monochrome-blue.json"
       }
     ]
   }

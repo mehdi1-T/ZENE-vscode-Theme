@@ -88,6 +88,7 @@
     "list.hoverForeground": "#e3e8ef",
     "list.focusBackground": "#264f78",
     "list.focusForeground": "#ffffff",
+    "list.background": "#0a0e14e0",
     "list.highlightForeground": "#6dd0ff",
     
     "statusBar.background": "#0a0e14",

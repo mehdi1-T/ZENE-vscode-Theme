@@ -15,10 +15,10 @@ I personaly use this them because i love see my editor simple and clean i dont l
 ## Installation
 
 1. Open **Extensions** sidebar panel in Visual Studio Code. `View → Extensions`
-1. Search for `ZENE Theme`
+1. Search for `Simple Black Theme`
 1. Click **Install**
 1. Click **Reload**
-1. File > Preferences > Color Theme > **Dark ZENE Theme**
+1. File > Preferences > Color Theme > **Simple Black Theme**
 1. Optional: Use the recommended settings below for best experience
 
 ## Authors
