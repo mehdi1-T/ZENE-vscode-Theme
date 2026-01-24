@@ -14,8 +14,8 @@
     
     "button.background": "#00d4ff",
     "button.foreground": "#ffffff",
-    "button.hoverBackground": "#ffffff",
-    "button.hoverForeground": "#000000",
+    "button.hoverBackground": "#1a2332",
+    "button.hoverForeground": "#ffffff",
 
     "editor.background": "#0d1117",
     "editor.foreground": "#e3e8ef",
@@ -81,16 +81,27 @@
     "sideBarSectionHeader.foreground": "#ffffff",
     "sideBarSectionHeader.border": "#1a2332",
     
-    "list.activeSelectionBackground": "#00d4ff",
     "list.activeSelectionForeground": "#ffffff",
-    "list.inactiveSelectionBackground": "#1a2332ef",
     "list.inactiveSelectionForeground": "#ffffff",
-    "list.hoverBackground": "#0d1117e6",
     "list.hoverForeground": "#ffffff",
-    "list.focusBackground": "#00d4ff",
     "list.focusForeground": "#ffffff",
-    "list.background": "#1a233201",
     "list.highlightForeground": "#00d4ff",
+    "list.background": "#0d1117cc",
+    "list.hoverBackground": "#0d1117e6",
+    "list.inactiveSelectionBackground": "#0d111799",
+    "list.activeSelectionBackground": "#00d4ff",
+    "list.focusBackground": "#00d4ff",
+
+    
+    "menu.background": "#0d1117cc",
+    "menu.foreground": "#ffffff",
+    "menu.selectionBackground": "#00d4ff",
+    "menu.selectionForeground": "#000000",
+    "menu.separatorBackground": "#1a2332",
+    "menubar.selectionBackground": "#00d4ff33",
+    "menubar.selectionForeground": "#ffffff",
+  
+
     
     "statusBar.background": "#0a0e1a",
     "statusBar.foreground": "#ffffff",

@@ -80,7 +80,6 @@
     "sideBarSectionHeader.foreground": "#7fdbff",
     "sideBarSectionHeader.border": "#01314d",
     
-    "list.activeSelectionBackground": "#5fb3f6",
     "list.activeSelectionForeground": "#ffffff",
     "list.inactiveSelectionBackground": "#011627cc",
     "list.inactiveSelectionForeground": "#7fdbff",
