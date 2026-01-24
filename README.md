@@ -1,15 +1,15 @@
 # ZENE Theme
-I personaly use this them because i love see my editor simple and clean i dont like mush colors lets keep it simple
+I personaly use monochrome theme because i love see my editor simple and clean i dont like mush colors lets keep it simple.
 
 
-## Dark ZENE Theme
-<img src="assets/simple-black.png">
+## Navy Theme
+<img src="assets/navy.png">
 
 ## Ice Theme
-<img src="assets/ice-theme.png">
+<img src="assets/ice.png">
 
-## Half Dark
-<img src="assets/Monochrome.png">
+## Monochrome Theme
+<img src="assets/monochrome.png">
 
 ## Recommended Settings
 For the best experience with ZENE themes, add these settings to your settings.json:

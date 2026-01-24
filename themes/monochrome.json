@@ -1,46 +1,51 @@
 {
-  "name": "Monochrome Theme",
+  "name": "Monochrome Theme – Power",
   "type": "dark",
   "colors": {
     "editor.background": "#000000",
-    "editor.foreground": "#ffffff",
+    "editor.foreground": "#eaeaea",
+
+    "editorCursor.foreground": "#4da3ff",
+
+    "editorLineNumber.foreground": "#3a3a3a",
+    "editorLineNumber.activeForeground": "#4da3ff",
+
+    "editor.selectionBackground": "#1b3f73",
+    "editor.selectionHighlightBackground": "#1b3f7366",
 
     "activityBar.background": "#000000",
-    "activityBar.foreground": "#ffffff",
-    "activityBarBadge.background": "#3b82f6",
+    "activityBar.foreground": "#eaeaea",
+    "activityBar.activeBorder": "#4da3ff",
+    "activityBarBadge.background": "#2563eb",
     "activityBarBadge.foreground": "#ffffff",
 
     "sideBar.background": "#000000",
-    "sideBar.foreground": "#e5e5e5",
+    "sideBar.foreground": "#d1d5db",
+    "sideBar.border": "#0f172a",
     "sideBarTitle.foreground": "#ffffff",
 
+    "list.background": "#000000",
+    "list.activeSelectionBackground": "#1e3a8a",
+    "list.activeSelectionForeground": "#ffffff",
+    "list.inactiveSelectionBackground": "#0b1f3a",
+    "list.hoverBackground": "#0f172a",
+    "list.hoverForeground": "#ffffff",
+    "list.focusBackground": "#2563eb",
+
     "statusBar.background": "#000000",
-    "statusBar.foreground": "#ffffff",
+    "statusBar.foreground": "#eaeaea",
+    "statusBar.border": "#0f172a",
     "statusBar.debuggingBackground": "#1e40af",
 
     "titleBar.activeBackground": "#000000",
     "titleBar.activeForeground": "#ffffff",
     "titleBar.inactiveBackground": "#000000",
-    "titleBar.inactiveForeground": "#888888",
-
-    "editorLineNumber.foreground": "#444444",
-    "editorLineNumber.activeForeground": "#3b82f6",
-
-    "editor.selectionBackground": "#1e3a8a",
-    "editor.selectionHighlightBackground": "#1e3a8a88",
-
-    "editorCursor.foreground": "#3b82f6",
-
-    "list.background": "#000000",
-    "list.activeSelectionBackground": "#1e3a8a",
-    "list.activeSelectionForeground": "#ffffff",
-    "list.hoverBackground": "#111111",
-    "list.hoverForeground": "#ffffff",
+    "titleBar.inactiveForeground": "#6b7280",
 
     "panel.background": "#000000",
-    "panel.border": "#1f2933",
+    "panel.border": "#0f172a",
 
-    "focusBorder": "#3b82f6"
+    "focusBorder": "#4da3ff"
   },
 
   "tokenColors": [
@@ -56,7 +61,8 @@
       "name": "Keywords",
       "scope": ["keyword", "storage.type"],
       "settings": {
-        "foreground": "#3b82f6"
+        "foreground": "#4da3ff",
+        "fontStyle": "bold"
       }
     },
     {
