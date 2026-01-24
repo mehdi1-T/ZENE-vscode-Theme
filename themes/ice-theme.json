@@ -14,12 +14,13 @@
     
     "button.background": "#00d4ff",
     "button.foreground": "#000000",
-    "button.hoverBackground": "#00b8e6",
-    
+    "button.hoverBackground": "#ffffff",
+    "button.hoverForeground": "#000000",
+
     "editor.background": "#0d1117",
     "editor.foreground": "#e3e8ef",
     "editor.lineHighlightBackground": "#161b22",
-    "editor.selectionBackground": "#264f78",
+    "editor.selectionBackground": "#00d4ffaa",  
     "editor.selectionHighlightBackground": "#264f7855",
     "editor.inactiveSelectionBackground": "#264f7833",
     "editor.wordHighlightBackground": "#264f7855",
@@ -82,13 +83,13 @@
     
     "list.activeSelectionBackground": "#00d4ff",
     "list.activeSelectionForeground": "#000000",
-    "list.inactiveSelectionBackground": "#0a0e1acc",
+    "list.inactiveSelectionBackground": "#0d1117cc",
     "list.inactiveSelectionForeground": "#ffffff",
-    "list.hoverBackground": "#0a0e1ae6",
+    "list.hoverBackground": "#0d1117e6",
     "list.hoverForeground": "#ffffff",
-    "list.focusBackground": "#264f78",
-    "list.focusForeground": "#ffffff",
-    "list.background": "#0a0e1add",
+    "list.focusBackground": "#00d4ff",
+    "list.focusForeground": "#000000",
+    "list.background": "#0d1117dd",
     "list.highlightForeground": "#00d4ff",
     
     "statusBar.background": "#0a0e1a",
