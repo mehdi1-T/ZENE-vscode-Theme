@@ -1,11 +1,15 @@
 # ZENE Theme
 I personaly use this them because i love see my editor simple and clean i dont like mush colors lets keep it simple
 
+
 ## Dark ZENE Theme
 <img src="assets/simple-black.png">
 
 ## Ice Theme
 <img src="assets/ice-theme.png">
+
+## Half Dark
+<img src="assets/Half Dark.png">
 
 
 ## Installation
@@ -14,7 +18,7 @@ I personaly use this them because i love see my editor simple and clean i dont l
 1. Search for `ZENE Theme`
 1. Click **Install**
 1. Click **Reload**
-1. File > Preferences > Color Theme > **night-fall**
+1. File > Preferences > Color Theme > **Dark ZENE Theme**
 1. Optional: Use the recommended settings below for best experience
 
 ## Authors
