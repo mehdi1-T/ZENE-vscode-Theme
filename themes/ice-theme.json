@@ -92,12 +92,12 @@
     "list.activeSelectionBackground": "#00d4ff",
     "list.focusBackground": "#00d4ff",
     
-    "menu.background": "#0d1117cc",
+    "menu.background": "#000000",
     "menu.foreground": "#ffffff",
-    "menu.selectionBackground": "#00d4ff",
+    "menu.selectionBackground": "#007AFF",
     "menu.selectionForeground": "#000000",
-    "menu.separatorBackground": "#1a2332",
-    "menubar.selectionBackground": "#00d4ff33",
+    "menu.separatorBackground": "#000000",
+    "menubar.selectionBackground": "#007AFF33",
     "menubar.selectionForeground": "#ffffff",
   
 
