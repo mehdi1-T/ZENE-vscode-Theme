@@ -9,7 +9,7 @@ I personaly use this them because i love see my editor simple and clean i dont l
 <img src="assets/ice-theme.png">
 
 ## Half Dark
-<img src="assets/Half Dark.png">
+<img src="assets/Monochrome.png">
 
 
 ## Installation
