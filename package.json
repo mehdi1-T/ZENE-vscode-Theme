@@ -1,7 +1,7 @@
 {
   "name": "zene-theme",
-  "displayName": "ZENE Theme",
-  "publisher": "Mehdi Talalha",
+  "displayName": "Zene Theme",
+  "publisher": "MehdiTalalha",
   "version": "1.2.17",
   "icon": "static/logo.jpg",
   "description": "A clean, cute dark theme for Visual Studio Code.",
