@@ -1,9 +1,9 @@
 {
   "name": "zene-theme",
   "displayName": "ZENE Theme",
-  "publisher": "mehditalalha",
-  "version": "1.2.16",
-  "icon": "assets/logo.jpg",
+  "publisher": "Mehdi Talalha",
+  "version": "1.2.17",
+  "icon": "static/logo.jpg",
   "description": "A clean, cute dark theme for Visual Studio Code.",
   "engines": {
     "vscode": "^1.85.0"
@@ -14,8 +14,13 @@
     "dark theme",
     "transparent",
     "night",
-    "minimal"
+    "minimal",
+    "simple theme",
+    "dark",
+    "list theme",
+    "pro theme"
   ],
+
   "repository": {
     "type": "git",
     "url": "https://github.com/mehdi1-T/ZENE-vscode-Theme"
@@ -24,20 +29,49 @@
   "contributes": {
     "themes": [
       {
-        "label": "Ice Theme",
+        "label": "Monochromator Dark Amber",
         "uiTheme": "vs-dark",
-        "path": "./themes/ice-theme.json"
+        "path": "./themes/zene-amber-color-theme.json"
       },
       {
-        "label": "Navy Theme",
+        "label": "Monochromator Dark Amethyst",
         "uiTheme": "vs-dark",
-        "path": "./themes/navy.json"
+        "path": "./themes/zene-amethyst-color-theme.json"
       },
       {
-        "label": "Monochrome Theme",
+        "label": "Monochromator Dark Aquamarine",
         "uiTheme": "vs-dark",
-        "path": "./themes/monochrome.json"
+        "path": "./themes/zene-aquamarine-color-theme.json"
+      },
+      {
+        "label": "Monochromator Dark Emerald",
+        "uiTheme": "vs-dark",
+        "path": "./themes/zene-emerald-color-theme.json"
+      },
+      {
+        "label": "Monochromator Dark Plain",
+        "uiTheme": "vs-dark",
+        "path": "./themes/zene-plain-color-theme.json"
+      },
+      {
+        "label": "Monochromator Dark Ruby",
+        "uiTheme": "vs-dark",
+        "path": "./themes/zene-ruby-color-theme.json"
+      },
+      {
+        "label": "Monochromator Dark Sulfur",
+        "uiTheme": "vs-dark",
+        "path": "./themes/zene-sulfur-color-theme.json"
       }
     ]
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/mehdi1-T/ZENE-vscode-Theme/issues"
+  },
+  "scripts": {
+        "package": "vsce package",
+        "publish": "vsce publish",
+        "build:theme": "bash generate-theme.sh"
+
+    }
 }

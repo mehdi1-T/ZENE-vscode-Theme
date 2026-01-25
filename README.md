@@ -1,15 +1,13 @@
-# ZENE Theme
-I personaly use monochrome theme because i love see my editor simple and clean i dont like mush colors lets keep it simple.
+# [ZENE Theme](https://marketplace.visualstudio.com/items?itemName=MehdiTalalha.zene-theme)
+[![Preview in vscode.dev](https://img.shields.io/badge/preview%20in-vscode.dev-blue)](https://vscode.dev/theme/MehdiTalalha.zene-theme/ZENE%20Thme)
 
+**Fun Fact:** I personaly use monochrome theme because i love see my editor simple and clean i dont like mush colors lets keep it simple.
 
-## Navy Theme
-<img src="assets/navy.png">
+## Screenshots
+<img src="static/screenshots.webp">
 
-## Ice Theme
-<img src="assets/ice.png">
+Font used in the screenshots is [JetBrains Mono.](https://www.jetbrains.com/lp/mono/)
 
-## Monochrome Theme
-<img src="assets/monochrome.png">
 
 ## Recommended Settings
 For the best experience with ZENE themes, add these settings to your settings.json:
