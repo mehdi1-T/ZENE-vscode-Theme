@@ -29,7 +29,7 @@ For the best experience with ZENE themes, add these settings to your settings.js
 1. Search for `ZENE Theme`
 1. Click **Install**
 1. Click **Reload**
-1. File > Preferences > Color Theme > **Simple Black Theme**
+1. File > Preferences > Color Theme > **Monochromator Dark Amber**
 1. Optional: Use the recommended settings below for best experience
 
 ## Authors
