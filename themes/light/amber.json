@@ -1,9 +1,9 @@
 {
   "colors": {
-    "editor.wordHighlightStrongBackground": "#00f3ff40"
+    "editor.wordHighlightStrongBackground": "#e6610040"
   },
   "include": "./default.json",
-  "name": "Monochromator Dark Aquamarine",
+  "name": "Monochromator Light Amber",
   "tokenColors": [
     {
       "name": "Literals",
@@ -22,8 +22,8 @@
         "string"
       ],
       "settings": {
-        "fontStyle": "bold",
-        "foreground": "#00f3ff"
+        "fontStyle": "normal",
+        "foreground": "#e66100"
       }
     },
     {
@@ -45,7 +45,7 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#00f3ff"
+        "foreground": "#e66100"
       }
     }
   ]

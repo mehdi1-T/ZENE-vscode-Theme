@@ -6,6 +6,7 @@
 - change the orange with mac's blue
 - change green with #c4c4c4
 - use docker to remove old themes
+- test release version
 
 # V1.2.17 | 2026.01.25
 - orginise files structure
@@ -15,3 +16,4 @@
 
 # V1.2.16 | before 2026.01.25
 - Rebuild The project from scratch
+

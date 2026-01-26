@@ -1,77 +1,141 @@
 {
-  "name": "zene-theme",
+  "name": "zene-them",
   "displayName": "Zene Theme",
-  "publisher": "MehdiTalalha",
-  "version": "1.2.17",
-  "icon": "static/logo.jpg",
-  "description": "A clean, cute dark theme for Visual Studio Code.",
+  "description": "Distraction-free monochrome coding theme",
+  "version": "2.2.17",
   "engines": {
-    "vscode": "^1.85.0"
+    "vscode": "^1.74.0"
   },
-  "categories": ["Themes"],
-  "keywords": [
-    "theme",
-    "dark theme",
-    "transparent",
-    "night",
-    "minimal",
-    "simple theme",
-    "dark",
-    "list theme",
-    "pro theme"
+  "categories": [
+    "Themes"
   ],
-
+  "keywords": [
+    "monochrome",
+    "monochromatic",
+    "minimal",
+    "minimalist",
+    "minimalism",
+    "black and white",
+    "grayscale",
+    "greyscale",
+    "contrast",
+    "clean",
+    "focus",
+    "simple",
+    "Zene Theme",
+    "ZENE Theme",
+    "ZENE"
+  ],
+  "publisher": "mehdi talalha",
+  "license": "MIT",
+  "icon": "static/logo.jpg",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mehdi1-T/ZENE-vscode-Theme"
+    "url": "https://github.com/mehdi1-T/ZENE-vscode-Theme.git"
   },
-  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mehdi1-T/ZENE-vscode-Theme/issues",
+    "email": "mehditalalha29@gmail.com"
+  },
   "contributes": {
     "themes": [
       {
+        "label": "Monochromator Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark/default.json"
+      },
+      {
         "label": "Monochromator Dark Amber",
         "uiTheme": "vs-dark",
-        "path": "./themes/zene-amber-color-theme.json"
+        "path": "./themes/dark/amber.json"
       },
       {
         "label": "Monochromator Dark Amethyst",
         "uiTheme": "vs-dark",
-        "path": "./themes/zene-amethyst-color-theme.json"
+        "path": "./themes/dark/amethyst.json"
       },
       {
         "label": "Monochromator Dark Aquamarine",
         "uiTheme": "vs-dark",
-        "path": "./themes/zene-aquamarine-color-theme.json"
+        "path": "./themes/dark/aquamarine.json"
       },
       {
         "label": "Monochromator Dark Emerald",
         "uiTheme": "vs-dark",
-        "path": "./themes/zene-emerald-color-theme.json"
+        "path": "./themes/dark/emerald.json"
       },
       {
         "label": "Monochromator Dark Plain",
         "uiTheme": "vs-dark",
-        "path": "./themes/zene-plain-color-theme.json"
+        "path": "./themes/dark/plain.json"
       },
       {
         "label": "Monochromator Dark Ruby",
         "uiTheme": "vs-dark",
-        "path": "./themes/zene-ruby-color-theme.json"
+        "path": "./themes/dark/ruby.json"
       },
       {
         "label": "Monochromator Dark Sulfur",
         "uiTheme": "vs-dark",
-        "path": "./themes/zene-sulfur-color-theme.json"
+        "path": "./themes/dark/sulfur.json"
+      },
+      {
+        "label": "Monochromator Light",
+        "uiTheme": "vs",
+        "path": "./themes/light/default.json"
+      },
+      {
+        "label": "Monochromator Light Amber",
+        "uiTheme": "vs",
+        "path": "./themes/light/amber.json"
+      },
+      {
+        "label": "Monochromator Light Amethyst",
+        "uiTheme": "vs",
+        "path": "./themes/light/amethyst.json"
+      },
+      {
+        "label": "Monochromator Light Aquamarine",
+        "uiTheme": "vs",
+        "path": "./themes/light/aquamarine.json"
+      },
+      {
+        "label": "Monochromator Light Emerald",
+        "uiTheme": "vs",
+        "path": "./themes/light/emerald.json"
+      },
+      {
+        "label": "Monochromator Light Plain",
+        "uiTheme": "vs",
+        "path": "./themes/light/plain.json"
+      },
+      {
+        "label": "Monochromator Light Ruby",
+        "uiTheme": "vs",
+        "path": "./themes/light/ruby.json"
+      },
+      {
+        "label": "Monochromator Light Sulfur",
+        "uiTheme": "vs",
+        "path": "./themes/light/sulfur.json"
       }
     ]
   },
-  "bugs": {
-    "url": "https://github.com/mehdi1-T/ZENE-vscode-Theme/issues"
+  "vsce": {
+    "baseContentUrl": "https://codeberg.org/beem/monochromator/raw/branch/master"
   },
+  "main": "./out/extension.js",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
   "scripts": {
-        "package": "vsce package",
-        "publish": "vsce publish",
-        "build:theme": "bash generate-theme.sh"
-
-    }
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.22",
+    "@types/vscode": "^1.74.0",
+    "@vscode/vsce": "^3.6.2",
+    "typescript": "^5.9.3"
+  }
 }
