@@ -1,8 +1,8 @@
 {
-  "name": "zene-theme",
-  "displayName": "Zene Theme",
-  "description": "Distraction-free monochrome coding theme",
-  "version": "2.2.17",
+  "name": "macos-sonoma-theme",
+  "displayName": "macOS Sonoma Theme",
+  "description": "A macOS-inspired VS Code theme with clean, professional design",
+  "version": "3.0.0",
   "engines": {
     "vscode": "^1.74.0"
   },
@@ -10,21 +10,16 @@
     "Themes"
   ],
   "keywords": [
-    "monochrome",
-    "monochromatic",
-    "minimal",
-    "minimalist",
-    "minimalism",
-    "black and white",
-    "grayscale",
-    "greyscale",
-    "contrast",
+    "macos",
+    "sonoma",
+    "apple",
     "clean",
-    "focus",
-    "simple",
-    "Zene Theme",
-    "ZENE Theme",
-    "ZENE"
+    "professional",
+    "dark theme",
+    "coding",
+    "programming",
+    "modern",
+    "minimal"
   ],
   "publisher": "mehditalalha",
   "license": "MIT",
@@ -40,86 +35,21 @@
   "contributes": {
     "themes": [
       {
-        "label": "Monochromator Dark",
+        "label": "Zene Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/dark/default.json"
-      },
-      {
-        "label": "Monochromator Dark Amber",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dark/amber.json"
-      },
-      {
-        "label": "Monochromator Dark Amethyst",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dark/amethyst.json"
-      },
-      {
-        "label": "Monochromator Dark Aquamarine",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dark/aquamarine.json"
-      },
-      {
-        "label": "Monochromator Dark Emerald",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dark/emerald.json"
-      },
-      {
-        "label": "Monochromator Dark Plain",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dark/plain.json"
-      },
-      {
-        "label": "Monochromator Dark Ruby",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dark/ruby.json"
-      },
-      {
-        "label": "Monochromator Dark Sulfur",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dark/sulfur.json"
-      },
-      {
-        "label": "Monochromator Light",
-        "uiTheme": "vs",
-        "path": "./themes/light/default.json"
-      },
-      {
-        "label": "Monochromator Light Amber",
-        "uiTheme": "vs",
-        "path": "./themes/light/amber.json"
-      },
-      {
-        "label": "Monochromator Light Amethyst",
-        "uiTheme": "vs",
-        "path": "./themes/light/amethyst.json"
-      },
-      {
-        "label": "Monochromator Light Aquamarine",
-        "uiTheme": "vs",
-        "path": "./themes/light/aquamarine.json"
-      },
-      {
-        "label": "Monochromator Light Emerald",
-        "uiTheme": "vs",
-        "path": "./themes/light/emerald.json"
-      },
-      {
-        "label": "Monochromator Light Plain",
-        "uiTheme": "vs",
-        "path": "./themes/light/plain.json"
-      },
-      {
-        "label": "Monochromator Light Ruby",
-        "uiTheme": "vs",
-        "path": "./themes/light/ruby.json"
-      },
-      {
-        "label": "Monochromator Light Sulfur",
-        "uiTheme": "vs",
-        "path": "./themes/light/sulfur.json"
+        "path": "./themes/zene-vs-code-theme.json"
       }
-    ]
+    ],
+    "configuration": {
+      "title": "macOS Sonoma",
+      "properties": {
+        "sonoma.blurEnabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable macOS Sonoma blur effects for reduced eye strain"
+        }
+      }
+    }
   },
   "vsce": {
     "baseContentUrl": "https://codeberg.org/beem/monochromator/raw/branch/master"

@@ -11,6 +11,71 @@ const THEME_MIGRATION_MAP: Record<string, string> = {
     'Monochromator Dark+ Sulfur': 'Monochromator Dark Sulfur'
 };
 
+let blurStatusBarItem: vscode.StatusBarItem;
+
+function updateActivityBarBlur() {
+    const config = vscode.workspace.getConfiguration();
+    const blurEnabled = config.get<boolean>('comfort.blurEnabled', true);
+    const currentTheme = config.get<string>('workbench.colorTheme');
+    
+    if (blurEnabled && currentTheme && currentTheme.includes('Comfort')) {
+        // Update theme colors for comfortable blur effect
+        const themeConfig = vscode.workspace.getConfiguration('workbench');
+        const customizations = themeConfig.get<any>('colorCustomizations', {});
+        
+        const blurCustomizations = {
+            ...customizations,
+            "[Comfort Code]": {
+                ...(customizations["[Comfort Code]"] || {}),
+                "activityBar.background": "#2c313c80",
+                "sideBar.background": "#2c313c80",
+                "titleBar.activeBackground": "#2c313c80",
+                "titleBar.inactiveBackground": "#2c313c80",
+                "tab.activeBackground": "#2c313c80",
+                "panel.background": "#2c313c80",
+                "statusBar.background": "#2c313c80",
+                "editorWidget.background": "#2c313c80",
+                "editorSuggestWidget.background": "#2c313c80",
+                "editorHoverWidget.background": "#2c313c80",
+                "notifications.background": "#2c313c80",
+                "menu.background": "#2c313c80",
+                "dropdown.background": "#2c313c80"
+            }
+        };
+        
+        themeConfig.update('colorCustomizations', blurCustomizations, vscode.ConfigurationTarget.Global);
+        
+        if (blurStatusBarItem) {
+            blurStatusBarItem.text = "$(eye) Comfort Blur: ON";
+            blurStatusBarItem.tooltip = "Comfortable blur effect is enabled";
+            blurStatusBarItem.show();
+        }
+    } else {
+        // Restore original colors
+        const themeConfig = vscode.workspace.getConfiguration('workbench');
+        const customizations = themeConfig.get<any>('colorCustomizations', {});
+        
+        if (customizations["[Comfort Code]"]) {
+            const updatedCustomizations = { ...customizations };
+            delete updatedCustomizations["[Comfort Code]"];
+            themeConfig.update('colorCustomizations', updatedCustomizations, vscode.ConfigurationTarget.Global);
+        }
+        
+        if (blurStatusBarItem) {
+            blurStatusBarItem.text = "$(eye-closed) Comfort Blur: OFF";
+            blurStatusBarItem.tooltip = "Comfortable blur effect is disabled";
+            blurStatusBarItem.hide();
+        }
+    }
+}
+
+function toggleBlurEffect() {
+    const config = vscode.workspace.getConfiguration();
+    const currentBlurState = config.get<boolean>('comfort.blurEnabled', true);
+    config.update('comfort.blurEnabled', !currentBlurState, vscode.ConfigurationTarget.Global);
+    updateActivityBarBlur();
+}
+
 function migrateTheme() {
     const config = vscode.workspace.getConfiguration();
     let migrated = false;
@@ -38,4 +103,25 @@ function migrateTheme() {
 
 export function activate(context: vscode.ExtensionContext) {
     migrateTheme();
+    
+    // Create status bar item for blur toggle
+    blurStatusBarItem = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Right, 100);
+    blurStatusBarItem.command = 'comfort.toggleBlur';
+    context.subscriptions.push(blurStatusBarItem);
+    
+    // Register toggle command
+    const toggleCommand = vscode.commands.registerCommand('comfort.toggleBlur', toggleBlurEffect);
+    context.subscriptions.push(toggleCommand);
+    
+    // Initial update
+    updateActivityBarBlur();
+    
+    // Listen for configuration changes
+    const configChangeListener = vscode.workspace.onDidChangeConfiguration(e => {
+        if (e.affectsConfiguration('comfort.blurEnabled') || e.affectsConfiguration('workbench.colorTheme')) {
+            updateActivityBarBlur();
+        }
+    });
+    
+    context.subscriptions.push(configChangeListener);
 }
