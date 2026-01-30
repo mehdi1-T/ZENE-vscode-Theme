@@ -3,7 +3,7 @@
 
 ---
 
-## 📸 Screenshots
+## Zene Theme image.
 <img src="static/image.png">
 
 Font used in the screenshots is [JetBrains Mono.](https://www.jetbrains.com/lp/mono/)
@@ -13,12 +13,10 @@ Font used in the screenshots is [JetBrains Mono.](https://www.jetbrains.com/lp/m
 ## ⚙️ Configuration
 ```json
 {
-  "comfort.blurEnabled": true  // Enable/disable comfort blur effects
+  "comfort.blurEnabled": true  
 }
 ```
 ##  Recommended Settings
-For the most comfortable experience:
-
 ```json
 {
   "editor.fontFamily": "JetBrains Mono, Consolas, 'Courier New', monospace",
@@ -49,5 +47,5 @@ Authored by [Mehdi Talalha](https://instagram.com/ska_zene)
 
 ---
 
-# Enjoy!
+# Enjoy! 😊
 

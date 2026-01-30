@@ -29,7 +29,7 @@
             "foreground": "#c0caf5"
         }
     },
-    "semanticClass": "macos-sonoma",
+    "semanticClass": "Zene-Theme",
     "colors": {
         "foreground": "#CAD3F5",
         "descriptionForeground": "#939AB7",
@@ -423,15 +423,7 @@
         "notificationsWarningIcon.foreground": "#bba461",
         "notificationsInfoIcon.foreground": "#0da0ba",
 
-        "menubar.selectionForeground": "#007AFF",
-        "menubar.selectionBackground": "#007AFF20",
-        "menubar.selectionBorder":"#1b1e2e",
-        "menu.foreground":"#787c9931",
-        "menu.background":"#16161e",
-        "menu.selectionForeground":"#ffffff",
-        "menu.selectionBackground":"#007AFF",
-        "menu.separatorBackground":"#101014",
-        "menu.border":"#101014",
+      
 
         "chat.requestBorder": "#0f0f14",
         "chat.avatarBackground": "#3d59a1",

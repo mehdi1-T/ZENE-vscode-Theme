@@ -1,8 +1,8 @@
 {
-  "name": "macos-sonoma-theme",
-  "displayName": "macOS Sonoma Theme",
-  "description": "A macOS-inspired VS Code theme with clean, professional design",
-  "version": "3.0.0",
+  "name": "zene-theme",
+  "displayName": "Zene Theme",
+  "description": "A beautiful VS Code theme with clean, professional design inspired by modern aesthetics",
+  "version": "3.0.1",
   "engines": {
     "vscode": "^1.74.0"
   },
@@ -10,9 +10,8 @@
     "Themes"
   ],
   "keywords": [
-    "macos",
-    "sonoma",
-    "apple",
+    "zene",
+    "theme",
     "clean",
     "professional",
     "dark theme",
@@ -40,27 +39,36 @@
         "path": "./themes/zene-vs-code-theme.json"
       }
     ],
+    "commands": [
+      {
+        "command": "zene.toggleBlur",
+        "title": "Toggle Zene Blur",
+        "category": "Zene Theme"
+      }
+    ],
     "configuration": {
-      "title": "macOS Sonoma",
+      "title": "Zene Theme",
       "properties": {
-        "sonoma.blurEnabled": {
+        "Zene.blurEnabled": {
           "type": "boolean",
           "default": true,
-          "description": "Enable macOS Sonoma blur effects for reduced eye strain"
+          "description": "Enable Zene Theme menu blur effects for reduced eye strain"
         }
       }
     }
   },
   "vsce": {
-    "baseContentUrl": "https://codeberg.org/beem/monochromator/raw/branch/master"
+    "baseContentUrl": "https://github.com/mehdi1-T/ZENE-vscode-Theme/raw/master"
   },
   "main": "./out/extension.js",
   "activationEvents": [
-    "onStartupFinished"
+    "onStartupFinished",
+    "onCommand:zene.toggleBlur"
   ],
   "scripts": {
     "vscode:prepublish": "npm run compile",
-    "compile": "tsc -p ./"
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
   },
   "devDependencies": {
     "@types/node": "^20.19.22",

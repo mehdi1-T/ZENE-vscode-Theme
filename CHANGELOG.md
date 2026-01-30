@@ -1,5 +1,12 @@
 # Release Notes
 
+# v3.0.0 | 2026.01.30 : Release version the end of project.
+- fix menu hover element
+- clean up REAFME.md file
+- publish release version
+- update extension.ts
+- creat new features to working on
+
 # v1.2.17 | 2026.01.26
 - building Zene Theme with (mac's Blue, white, Black)
 - publish this version
