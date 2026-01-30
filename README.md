@@ -39,7 +39,7 @@ Font used in the screenshots is [JetBrains Mono.](https://www.jetbrains.com/lp/m
 2. Search for `Comfort Code`
 3. Click **Install**
 4. Click **Reload**
-5. File > Preferences > Color Theme > **Comfort Code**
+5. File > Preferences > Color Theme > **Comfort Zne**
 6. Enjoy comfortable coding!
 
 ## 👨‍💻 Authors
