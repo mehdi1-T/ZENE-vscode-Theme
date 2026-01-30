@@ -8,7 +8,7 @@
 Font used in the screenshots is [JetBrains Mono.](https://www.jetbrains.com/lp/mono/)
 
 <p align="center">
-  <img align="center" alt="logo" src="static/logo.jpg">
+  <img align="center" alt="logo" src="static/logo.jpg" width="150">
 </p>
 
 ---
