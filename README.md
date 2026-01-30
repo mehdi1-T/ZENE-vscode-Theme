@@ -4,26 +4,16 @@
 ---
 
 ## Zene Theme Preview
-![Zene Theme](static/image.png)
+![Zene Theme](https://github.com/mehdi1-T/ZENE-vscode-Theme/blob/main/static/image.png)
 Font used in the screenshots is [JetBrains Mono.](https://www.jetbrains.com/lp/mono/)
+
+<p align="center">
+  <img align="center" alt="logo" src="static/logo.jpg">
+</p>
 
 ---
 
-## ⚙️ Configuration
-```json
-{
-  "zene.fontEnabled": true  
-}
-```
-
-## 🎯 Features
-- **Beautiful dark theme** with carefully selected colors for reduced eye strain
-- **Optimal font settings** automatically applied when theme is active
-- **JetBrains Mono** font with perfect spacing and ligatures
-- **Clean, professional design** inspired by modern aesthetics
-- **Status bar toggle** for font settings
-
-## 📝 Recommended Settings
+## Recommended Settings
 ```json
 {
   "workbench.colorTheme": "Zene Theme",
@@ -41,7 +31,7 @@ Font used in the screenshots is [JetBrains Mono.](https://www.jetbrains.com/lp/m
 ```
 ---
 
-## 🔧 Installation
+## Installation
 
 1. Open **Extensions** sidebar panel in Visual Studio Code. `View → Extensions`
 2. Search for `Zene Theme`
@@ -49,11 +39,6 @@ Font used in the screenshots is [JetBrains Mono.](https://www.jetbrains.com/lp/m
 4. Click **Reload**
 5. Go to `File > Preferences > Color Theme > **Zene Theme**`
 6. Enjoy beautiful coding with Zene Theme!
-
-## 🎨 Commands
-
-- **Toggle Zene Font**: Use the command palette (`Ctrl+Shift+P` or `Cmd+Shift+P`) and search for "Toggle Zene Font"
-- **Status Bar Toggle**: Click the "Zene Font" status bar item to quickly toggle font settings
 
 ## 👨‍💻 Authors
 Authored by [Mehdi Talalha](https://instagram.com/ska_zene)

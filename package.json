@@ -2,7 +2,7 @@
   "name": "zene-theme",
   "displayName": "Zene Theme",
   "description": "A beautiful VS Code theme with clean, professional design inspired by modern aesthetics",
-  "version": "3.0.1",
+  "version": "0.1.3",
   "engines": {
     "vscode": "^1.74.0"
   },
@@ -42,22 +42,10 @@
         "path": "./themes/zene-vs-code-theme.json"
       }
     ],
-    "commands": [
-      {
-        "command": "zene.toggleFont",
-        "title": "Toggle Zene Font",
-        "category": "Zene Theme"
-      }
-    ],
+    "commands": [],
     "configuration": {
       "title": "Zene Theme",
-      "properties": {
-        "Zene.fontEnabled": {
-          "type": "boolean",
-          "default": true,
-          "description": "Enable Zene Theme optimal font settings for better readability"
-        }
-      }
+      "properties": {}
     }
   },
   "vsce": {
@@ -65,8 +53,7 @@
   },
   "main": "./out/extension.js",
   "activationEvents": [
-    "onStartupFinished",
-    "onCommand:zene.toggleFont"
+    "onStartupFinished"
   ],
   "scripts": {
     "vscode:prepublish": "npm run compile",
