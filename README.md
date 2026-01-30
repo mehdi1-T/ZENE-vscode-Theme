@@ -2,6 +2,7 @@
 <p align="center">
   <img align="center" alt="logo" src="static/logo.jpg" width="150">
 </p>
+
 [![Preview in vscode.dev](https://img.shields.io/badge/preview%20in-vscode.dev-blue)](https://vscode.dev/theme/MehdiTalalha.zene-theme)
 
 ---
