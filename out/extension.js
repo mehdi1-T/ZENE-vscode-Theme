@@ -3,89 +3,78 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.activate = activate;
 exports.deactivate = deactivate;
 const vscode = require("vscode");
-let blurStatusBarItem;
-function updateActivityBarBlur() {
+let fontStatusBarItem;
+function updateFontSettings() {
     const config = vscode.workspace.getConfiguration();
-    const blurEnabled = config.get('Zene.blurEnabled', true);
+    const fontEnabled = config.get('Zene.fontEnabled', true);
     const currentTheme = config.get('workbench.colorTheme');
     // Check for both exact match and partial match for better compatibility
     const isZeneTheme = currentTheme && (currentTheme === 'Zene Theme' ||
         currentTheme.includes('Zene Theme'));
-    if (blurEnabled && isZeneTheme) {
-        // Update theme colors for comfortable blur effect
-        const themeConfig = vscode.workspace.getConfiguration('workbench');
-        const customizations = themeConfig.get('colorCustomizations', {});
-        // Use theme colors that match the actual Zene theme palette
-        const blurCustomizations = {
-            ...customizations,
-            "[Zene Theme]": {
-                ...(customizations["[Zene Theme]"] || {}),
-                "menu.background": "#24273A15",
-                "dropdown.background": "#24273A15"
-            }
+    if (fontEnabled && isZeneTheme) {
+        // Update font settings for optimal Zene Theme experience
+        const fontConfig = vscode.workspace.getConfiguration('editor');
+        const currentFontFamily = fontConfig.get('fontFamily', '');
+        const currentFontSize = fontConfig.get('fontSize', 14);
+        const currentLineHeight = fontConfig.get('lineHeight', 1.6);
+        // Apply Zene Theme recommended font settings
+        const zeneFontSettings = {
+            "editor.fontFamily": "JetBrains Mono, Consolas, 'Courier New', monospace",
+            "editor.fontSize": 14,
+            "editor.lineHeight": 1.6,
+            "editor.fontWeight": "400",
+            "editor.letterSpacing": 0.5,
+            "editor.fontLigatures": true
         };
-        themeConfig.update('colorCustomizations', blurCustomizations, vscode.ConfigurationTarget.Global);
-        if (blurStatusBarItem) {
-            blurStatusBarItem.text = "$(eye) Zene Blur: ON";
-            blurStatusBarItem.tooltip = "Zene Theme menu blur effect is enabled";
-            blurStatusBarItem.backgroundColor = new vscode.ThemeColor('statusBarItem.prominentBackground');
-            blurStatusBarItem.show();
+        // Update settings
+        Object.entries(zeneFontSettings).forEach(([key, value]) => {
+            fontConfig.update(key, value, vscode.ConfigurationTarget.Global);
+        });
+        if (fontStatusBarItem) {
+            fontStatusBarItem.text = "$(text-size) Zene Font: ON";
+            fontStatusBarItem.tooltip = "Zene Theme font settings are enabled";
+            fontStatusBarItem.backgroundColor = new vscode.ThemeColor('statusBarItem.prominentBackground');
+            fontStatusBarItem.show();
         }
     }
     else {
-        // Restore original colors
-        const themeConfig = vscode.workspace.getConfiguration('workbench');
-        const customizations = themeConfig.get('colorCustomizations', {});
-        if (customizations["[Zene Theme]"]) {
-            const updatedCustomizations = { ...customizations };
-            // Only remove menu and dropdown blur, keep other customizations
-            if (updatedCustomizations["[Zene Theme]"]) {
-                delete updatedCustomizations["[Zene Theme]"]["menu.background"];
-                delete updatedCustomizations["[Zene Theme]"]["dropdown.background"];
-                // Remove the theme object if it's empty
-                if (Object.keys(updatedCustomizations["[Zene Theme]"]).length === 0) {
-                    delete updatedCustomizations["[Zene Theme]"];
-                }
-            }
-            themeConfig.update('colorCustomizations', updatedCustomizations, vscode.ConfigurationTarget.Global);
-        }
-        if (blurStatusBarItem) {
-            blurStatusBarItem.text = "$(eye-closed) Zene Blur: OFF";
-            blurStatusBarItem.tooltip = "Zene Theme menu blur effect is disabled";
-            blurStatusBarItem.hide();
+        if (fontStatusBarItem) {
+            fontStatusBarItem.text = "$(text-size) Zene Font: OFF";
+            fontStatusBarItem.tooltip = "Zene Theme font settings are disabled";
+            fontStatusBarItem.hide();
         }
     }
 }
-function toggleBlurEffect() {
+function toggleFontEffect() {
     const config = vscode.workspace.getConfiguration();
-    const currentBlurState = config.get('Zene.blurEnabled', true);
+    const currentFontState = config.get('Zene.fontEnabled', true);
     // Show notification for better user feedback
-    const newState = !currentBlurState;
-    config.update('Zene.blurEnabled', newState, vscode.ConfigurationTarget.Global)
+    const newState = !currentFontState;
+    config.update('Zene.fontEnabled', newState, vscode.ConfigurationTarget.Global)
         .then(() => {
         const message = newState ?
-            'Zene menu blur effect enabled' :
-            'Zene menu blur effect disabled';
+            'Zene font settings enabled' :
+            'Zene font settings disabled';
         vscode.window.showInformationMessage(message);
     });
-    updateActivityBarBlur();
+    updateFontSettings();
 }
 function activate(context) {
     console.log('Zene Theme extension is now active!');
-    // Create status bar item for blur toggle
-    blurStatusBarItem = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Right, 100);
-    blurStatusBarItem.command = 'zene.toggleBlur';
-    blurStatusBarItem.tooltip = 'Toggle Zene Theme Menu Blur Effect';
-    context.subscriptions.push(blurStatusBarItem);
+    // Create status bar item for font toggle
+    fontStatusBarItem = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Right, 100);
+    fontStatusBarItem.command = 'zene.toggleFont';
+    fontStatusBarItem.tooltip = 'Toggle Zene Theme Font Settings';
+    context.subscriptions.push(fontStatusBarItem);
     // Register toggle command
-    const toggleCommand = vscode.commands.registerCommand('zene.toggleBlur', toggleBlurEffect);
+    const toggleCommand = vscode.commands.registerCommand('zene.toggleFont', toggleFontEffect);
     context.subscriptions.push(toggleCommand);
     // Initial update
-    updateActivityBarBlur();
+    updateFontSettings();
     // Listen for configuration changes
     const configChangeListener = vscode.workspace.onDidChangeConfiguration(e => {
-        if (e.affectsConfiguration('Zene.blurEnabled') || e.affectsConfiguration('workbench.colorTheme')) {
-            updateActivityBarBlur();
+        if (e.affectsConfiguration('Zene.fontEnabled') || e.affectsConfiguration('workbench.colorTheme')) {
+            updateFontSettings();
         }
     });
     context.subscriptions.push(configChangeListener);

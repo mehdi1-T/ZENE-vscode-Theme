@@ -12,6 +12,9 @@
   "keywords": [
     "zene",
     "theme",
+    "Zene Theme",
+    "coder coder dark",
+    "monochromator",
     "clean",
     "professional",
     "dark theme",
@@ -41,18 +44,18 @@
     ],
     "commands": [
       {
-        "command": "zene.toggleBlur",
-        "title": "Toggle Zene Blur",
+        "command": "zene.toggleFont",
+        "title": "Toggle Zene Font",
         "category": "Zene Theme"
       }
     ],
     "configuration": {
       "title": "Zene Theme",
       "properties": {
-        "Zene.blurEnabled": {
+        "Zene.fontEnabled": {
           "type": "boolean",
           "default": true,
-          "description": "Enable Zene Theme menu blur effects for reduced eye strain"
+          "description": "Enable Zene Theme optimal font settings for better readability"
         }
       }
     }
@@ -63,7 +66,7 @@
   "main": "./out/extension.js",
   "activationEvents": [
     "onStartupFinished",
-    "onCommand:zene.toggleBlur"
+    "onCommand:zene.toggleFont"
   ],
   "scripts": {
     "vscode:prepublish": "npm run compile",
