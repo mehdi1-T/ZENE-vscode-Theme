@@ -1,15 +1,15 @@
 # [Zene Theme](https://marketplace.visualstudio.com/items?itemName=MehdiTalalha.zene-theme)
 <p align="center">
   <img align="center" alt="logo" src="static/logo.jpg" width="150">
+  
+  [![Preview in vscode.dev](https://img.shields.io/badge/preview%20in-vscode.dev-blue)](https://vscode.dev/theme/MehdiTalalha.zene-theme)
 </p>
 
-[![Preview in vscode.dev](https://img.shields.io/badge/preview%20in-vscode.dev-blue)](https://vscode.dev/theme/MehdiTalalha.zene-theme)
-
----
 
 ## Zene Theme Preview
-![Zene Theme](https://github.com/mehdi1-T/ZENE-vscode-Theme/blob/main/static/image.png)
-Font used in the screenshots is [JetBrains Mono.](https://www.jetbrains.com/lp/mono/)
+
+![Zene Dark Theme](https://github.com/mehdi1-T/ZENE-vscode-Theme/blob/main/static/image.png)
+
 
 
 ---

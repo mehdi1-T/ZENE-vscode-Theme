@@ -82,12 +82,12 @@
         "dropdown.background": "#24273A",
         "dropdown.listBackground": "#24273A",
 
-        "activityBar.background": "#11111B",
+        "activityBar.background": "#11111BCC",
         "activityBar.foreground": "#CAD3F5",
         "activityBar.activeBorder": "#8AADF4",
-        "activityBar.activeBackground": "#1E1E2E",
+        "activityBar.activeBackground": "#1E1E2E99",
         "activityBar.inactiveForeground": "#6E738D",
-        "activityBar.border": "#11111B",
+        "activityBar.border": "#11111B33",
         "activityBarBadge.background": "#8AADF4",
         "activityBarBadge.foreground": "#fff",
 
@@ -299,8 +299,8 @@
 
         "titleBar.activeForeground": "#CAD3F5",
         "titleBar.inactiveForeground": "#6E738D",
-        "titleBar.activeBackground": "#1E1E2E",
-        "titleBar.inactiveBackground": "#1E1E2E",
+        "titleBar.activeBackground": "#1E1E2ECC",
+        "titleBar.inactiveBackground": "#1E1E2E99",
         "titleBar.border": "#24273A",
 
         "walkThrough.embeddedEditorBackground": "#24273A",

@@ -1,7 +1,7 @@
 {
   "name": "zene-theme",
   "displayName": "Zene Theme",
-  "description": "A beautiful VS Code theme with clean, professional design inspired by modern aesthetics",
+  "description": "A beautiful VS Code theme with clean look, inspired by modern aesthetics",
   "version": "3.0.4",
   "engines": {
     "vscode": "^1.74.0"
@@ -37,9 +37,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Zene Theme",
+        "label": "Zene Dark Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/zene-vs-code-theme.json"
+      },
+      {
+        "label": "Zene Light Theme",
+        "uiTheme": "hc-light",
+        "path": "./theme/zene-vs-code-theme.json"
       }
     ],
     "commands": [
@@ -61,7 +66,7 @@
     }
   },
   "vsce": {
-    "baseContentUrl": "https://github.com/mehdi1-T/ZENE-vscode-Theme/raw/master"
+    "baseContentUrl": "https://github.com/mehdi1-T/ZENE-vscode-Theme"
   },
   "main": "./out/extension.js",
   "activationEvents": [
