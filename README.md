@@ -10,11 +10,11 @@
 
 Zene Dark Theme
 
-![Zene Dark Theme](https://github.com/mehdi1-T/ZENE-vscode-Theme/blob/main/static/zene dark theme.png)
+![Zene Dark Theme](https://github.com/mehdi1-T/ZENE-vscode-Theme/blob/main/static/zene-dark-theme.png)
 
 Zene Light Theme
 
-![Zene Light Theme](https://github.com/mehdi1-T/ZENE-vscode-Theme/blob/main/static/zene light theme.png)
+![Zene Light Theme](https://github.com/mehdi1-T/ZENE-vscode-Theme/blob/main/static/zene-light-theme.png)
 
 ---
 
