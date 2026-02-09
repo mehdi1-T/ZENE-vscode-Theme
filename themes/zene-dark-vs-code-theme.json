@@ -416,13 +416,11 @@
         "gitlens.gutterBackgroundColor": "#16161e",
 
         "notificationCenterHeader.background": "#101014",
-        "notifications.background": "#00000000",
+        "notifications.background": "#000000",
         "notificationLink.foreground": "#007AFF",
         "notificationsErrorIcon.foreground": "#bb616b",
         "notificationsWarningIcon.foreground": "#bba461",
         "notificationsInfoIcon.foreground": "#0da0ba",
-
-      
 
         "chat.requestBorder": "#0f0f14",
         "chat.avatarBackground": "#3d59a1",

@@ -1,6 +1,6 @@
 # [Zene Theme](https://marketplace.visualstudio.com/items?itemName=MehdiTalalha.zene-theme)
 <p align="center">
-  <img align="center" alt="logo" src="static/logo.jpg" width="150">
+  <img align="center" alt="logo" src="static/introduction-image.png" width="150">
   
   [![Preview in vscode.dev](https://img.shields.io/badge/preview%20in-vscode.dev-blue)](https://vscode.dev/theme/MehdiTalalha.zene-theme)
 </p>
@@ -10,18 +10,18 @@
 
 Zene Dark Theme
 
-![Zene Dark Theme](https://github.com/mehdi1-T/ZENE-vscode-Theme/blob/main/static/zene-dark-theme.png)
+![Zene Dark Theme](static/zene-dark-theme.png)
 
 Zene Light Theme
 
-![Zene Light Theme](https://github.com/mehdi1-T/ZENE-vscode-Theme/blob/main/static/zene-light-theme.png)
+![Zene Light Theme](static/zene-light-theme.png)
 
 ---
 
 ## Recommended Settings
 ```json
 {
-  "workbench.colorTheme": "Zene Theme",
+  "workbench.colorTheme": "Zene Dark Theme", // or "zene light theme if you prefer light theme
   "editor.fontFamily": "JetBrains Mono, Consolas, 'Courier New', monospace",
   "editor.fontSize": 14,
   "editor.lineHeight": 1.6,
@@ -42,7 +42,7 @@ Zene Light Theme
 2. Search for `Zene Theme`
 3. Click **Install**
 4. Click **Reload**
-5. Go to `File > Preferences > Color Theme > **Zene Theme**`
+5. Go to `File > Preferences > Color Theme > **Zene Dark Theme**`
 6. Enjoy beautiful coding with Zene Theme!
 
 ## 👨‍💻 Authors
