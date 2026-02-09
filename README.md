@@ -1,12 +1,12 @@
 # [Zene Theme](https://marketplace.visualstudio.com/items?itemName=MehdiTalalha.zene-theme)
 <p align="center">
-  <img align="center" alt="logo" src="static/introduction-image.png" width="250">
+  <img align="center" alt="logo" src="static/introduction-image.png" width="600">
   
   [![Preview in vscode.dev](https://img.shields.io/badge/preview%20in-vscode.dev-blue)](https://vscode.dev/theme/MehdiTalalha.zene-theme)
 </p>
 
 
-## Zene Theme Preview
+## Screenshots
 
 Zene Dark Theme
 

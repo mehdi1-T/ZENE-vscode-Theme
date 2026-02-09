@@ -1,0 +1,37 @@
+{
+  "workbench.colorTheme": "Zene Purple Light High Contrast Theme",
+  "editor.fontFamily": "JetBrains Mono, monospace",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.6,
+  "editor.fontWeight": "400",
+  "editor.cursorBlinking": "smooth",
+  "editor.renderWhitespace": "selection",
+  "editor.renderLineHighlight": "line",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.minimap.enabled": true,
+  "editor.smoothScrolling": true,
+  "editor.wordWrap": "on",
+  "editor.formatOnSave": true,
+  "editor.semanticHighlighting": true,
+  "workbench.colorCustomizations": {
+    "[Zene Purple Light High Contrast Theme]": {
+      "editor.background": "#e6e7ed",
+      "editor.foreground": "#1a1d2b",
+      "editorCursor.foreground": "#1a1d2b",
+      "editor.lineHighlightBackground": "#dcdee3",
+      "editor.selectionBackground": "#357EC7",
+      "activityBar.background": "#d6d8df",
+      "sideBar.background": "#d6d8df",
+      "tab.activeBackground": "#e6e7ed",
+      "statusBar.background": "#d6d8df",
+      "terminal.background": "#d6d8df"
+    }
+  },
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "files.trimTrailingWhitespace": true,
+  "explorer.compactFolders": false,
+  "git.autofetch": true,
+  "workbench.startupEditor": "none"
+}
