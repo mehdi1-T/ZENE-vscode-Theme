@@ -44,7 +44,6 @@
         "settings.headerForeground": "#8AADF4",
         "window.activeBorder": "#1E1E2E",
         "window.inactiveBorder":"#1E1E2E",
-        "sash.hoverBorder": "#8AADF4",
 
         "toolbar.activeBackground": "#24273A",
         "toolbar.hoverBackground": "#24273A",

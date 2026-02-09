@@ -2,7 +2,7 @@
   "name": "zene-theme",
   "displayName": "Zene Theme",
   "description": "A beautiful VS Code theme with clean look, inspired by modern aesthetics",
-  "version": "3.0.4",
+  "version": "3.0.5",
   "engines": {
     "vscode": "^1.74.0"
   },
@@ -39,12 +39,12 @@
       {
         "label": "Zene Dark Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/zene-vs-code-theme.json"
+        "path": "./themes/zene-dark-vs-code-theme.json"
       },
       {
         "label": "Zene Light Theme",
         "uiTheme": "hc-light",
-        "path": "./theme/zene-vs-code-theme.json"
+        "path": "./themes/zene-light-vs-code-theme.json"
       }
     ],
     "commands": [
