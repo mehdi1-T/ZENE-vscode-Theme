@@ -1,5 +1,5 @@
 {
-    "name": "Zene Theme",
+    "name": "Zene Dark Theme",
     "author": "mehditalalha",
     "maintainers": ["Mehdi <mehditalalha29@gmail.com>"],
     "type": "dark",
@@ -96,11 +96,9 @@
         "tree.indentGuidesStroke": "#363A4F",
         "sideBar.foreground": "#CAD3F5",
         "sideBar.background": "#181825",
-        "sideBar.border": "#24273A",
         "sideBarTitle.foreground": "#CAD3F5",
         "sideBarSectionHeader.background": "#181825",
         "sideBarSectionHeader.foreground": "#CAD3F5",
-        "sideBarSectionHeader.border": "#24273A",
         "sideBar.dropBackground": "#24273A",
 
         "list.dropBackground": "#24273A",
@@ -266,9 +264,7 @@
         "tab.inactiveBackground": "#1E1E2E",
         "tab.activeForeground": "#CAD3F5",
         "tab.hoverForeground": "#CAD3F5",
-        "tab.activeBorder": "#8AADF4",
         "tab.inactiveForeground": "#6E738D",
-        "tab.border": "#24273A",
         "tab.unfocusedActiveForeground": "#939AB7",
         "tab.unfocusedInactiveForeground": "#6E738D",
         "tab.unfocusedHoverForeground": "#939AB7",
