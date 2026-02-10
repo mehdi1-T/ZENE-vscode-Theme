@@ -1,6 +1,6 @@
 <div align="center">
 
-<img alt="logo" src="./static/logo.jpg" width="140">
+<img alt="logo" src="https://raw.githubusercontent.com/mehdi1-T/ZENE-vscode-Theme/main/static/logo.jpg" width="140">
 
 # zene Theme
 
@@ -8,12 +8,16 @@ A minimal theme for VS Code that comes in dark and light.
 
 [![Preview in vscode.dev](https://img.shields.io/badge/preview%20in-vscode.dev-blue)](https://vscode.dev/theme/MehdiTalalha.zene-theme)
 
-![preview-dark](/static/zene-dark-theme.png)
+**Zene Dark Theme**
+
+![preview-dark](https://raw.githubusercontent.com/mehdi1-T/ZENE-vscode-Theme/main/static/zene-dark-theme.png)
 
 <br>
 <br>
 
-![preview-light](./static/zene-light-theme.png)
+**Zene Light Theme**
+
+![preview-light](https://raw.githubusercontent.com/mehdi1-T/ZENE-vscode-Theme/main/static/zene-light-theme.png)
 
 </div>
 
