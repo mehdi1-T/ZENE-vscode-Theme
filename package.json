@@ -1,8 +1,8 @@
 {
   "name": "zene-theme",
   "displayName": "Zene Theme",
-  "description": "A beautiful VS Code theme with clean look, inspired by modern aesthetics",
-  "version": "3.0.9",
+  "description": "A friendly and clean VS Code theme.",
+  "version": "3.1.0",
   "engines": {
     "vscode": "^1.74.0"
   },
